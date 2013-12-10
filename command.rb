@@ -27,5 +27,5 @@ class RemoveButton
 	end
 end
 
-save_button = Button.new(SaveButton.new, OpenButton.new, RemoveButton.new)
-save_button.on_click
+command_button = Button.new(SaveButton.new, OpenButton.new, RemoveButton.new)
+command_button.on_click
